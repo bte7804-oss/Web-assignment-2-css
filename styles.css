@@ -96,3 +96,34 @@ footer {
 }
 
 
+section h2 {
+    font-family: 'Garamond', 'Georgia', serif; 
+    font-size: 2.5em; 
+    color: #D4C49B;
+    text-align: center;
+    margin: 20px 0 40px 0;
+    letter-spacing: 1.5px;
+    text-shadow: 1px 1px 3px #2E2E2E; 
+    position: relative;
+    line-height: 1.3em;
+}
+
+
+section h2::after {
+    content: '✦'; 
+    display: block;
+    color: #D4C49B;
+    font-size: 1.5em;
+    margin: 10px auto 0 auto;
+    text-shadow: 0 1px 2px #2E2E2E;
+}
+
+
+section h2:hover {
+    color: #F5E1A7; 
+    text-shadow: 2px 2px 4px #000;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
